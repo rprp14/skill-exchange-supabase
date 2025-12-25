@@ -18,8 +18,7 @@ A serverless full-stack web application where users can offer skills, request sk
 - Netlify (Deployment)
 
 ## 🌍 Live Demo
-👉 https://YOUR-NETLIFY-LINK.netlify.app
-
+👉 https://funny-peony-ac4c1b.netlify.app/
 ## 📁 Project Structure
 skill-exchange/
 ├── index.html
