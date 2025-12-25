@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Create Your Profile</h2>
+
+    <!-- NO FORM TAG -->
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="text" id="college" placeholder="College Name">
+    <input type="text" id="branch" placeholder="Branch">
+
+    <!-- IMPORTANT -->
+    <button type="button" id="saveProfileBtn">Save Profile</button>
+ <button type="button" onclick="window.location.href='index.html'">
+  ⬅ Logout
+</button>
+    <p id="status"></p>
+  </div>
+
+
+  <!-- Scripts at bottom -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

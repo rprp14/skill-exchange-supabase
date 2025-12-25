@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Add Skill</h2>
+
+    <!-- NO FORM -->
+    <input type="text" id="skill" placeholder="Skill name">
+
+    <select id="type">
+      <option value="offer">I Offer</option>
+      <option value="request">I Want</option>
+    </select>
+
+    <!-- IMPORTANT -->
+    <button type="button" id="addSkillBtn">Add Skill</button>
+<button type="button" onclick="window.location.href='profile.html'">
+  ⬅ Back to Profile
+</button>
+
+<button type="button" onclick="window.location.href='matches.html'">
+  Find Matches ➡
+</button>
+
+    <h3>Your Skills</h3>
+    <div id="skillList"></div>
+  </div>
+
+  <!-- SCRIPTS AT BOTTOM -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
